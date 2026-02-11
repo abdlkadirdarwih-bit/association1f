@@ -5,15 +5,15 @@
 import myImage from "../assets/WhatsApp Image 2026-01-25 at 10.31.44 PM.jpeg";
 
 // import myImage from "../assets/WhatsApp Image 2025-09-19 at 10.49.02 PM.jpeg";
-// import ServicesPage from "./services";
-// import   "./services.css";
+import ServicesPage from "./services";
+import   "./services.css";
 // import AboutPage from "./about";
 // import   "./about.css";
 // import ProjectsPage from "./project";
 // import   "./project.css";
 
-// import Contact from "./contact";
-// import   "./contact.css";
+import Contact from "./contact";
+import   "./contact.css";
 import { useNavigate } from 'react-router-dom';
 const Section1 = ({ title, description, buttonText }) => {
        const navigate = useNavigate(); 
@@ -58,11 +58,11 @@ export default function Home() {
 .فإننا ملتزمون بتحويل أفكارك إلى حقيقة. نحن هنا لدعم رحلتك في كل خطوة على الطريق  انضم  إلينا في تشكيل مستقبل التكنولوجيا اليوم       "
       buttonText="دعونا نتواصل"
     />
-{/* 
-     <ServicesPage/>
-         <AboutPage/>
-         <ProjectsPage/> 
-<Contact/>*/}
+
+   <ServicesPage/>
+       {/*     <AboutPage/>
+         <ProjectsPage/> */}
+<Contact/>
 </>
   )
 }
