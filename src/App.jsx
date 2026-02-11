@@ -23,8 +23,8 @@ import "./association/home.css";
 // import "./association/event.css";
 // import Eventmoreass from "./association/eventmore.jsx";
 // import "./association/eventmore.css";
-// import Servicesass from "./association/servicesass.jsx";
-// import "./association/servicesass.css";
+import Servicesass from "./association/servicesass.jsx";
+import "./association/servicesass.css";
 // import Contactass from "./association/contactass.jsx";
 // import "./association/contactass.css";
 
@@ -73,7 +73,7 @@ export default function App() {
           <Route element={<Navbar/>}>
 
           <Route path="/login" element={<LoginPage />} />
-          {/* <Route path="/change-password" element={<ChangePasswordPage />} /> */}
+          <Route path="/change-password" element={<ChangePasswordPage />} />
           <Route path="/register" element={<RegisterPage />} />
 
   
@@ -82,9 +82,9 @@ export default function App() {
           {/* 
           <Route path="/eventass" element={<Event />} />
           <Route path="/eventmoreass" element={<Eventmoreass />} />
-          <Route path="/servicesass" element={<Servicesass />} />
           <Route path="/contactass" element={<Contactass />} /> */}
           </Route>
+          <Route path="/servicesass" element={<Servicesass />} />
 
 //true
  {/* <Route element={<AdminLayout />}> */}
