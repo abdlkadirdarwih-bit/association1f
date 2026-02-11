@@ -13,8 +13,8 @@ import "./Nav/Navb.css";
 import LoginPage from "./LoginSchool/LoginPage.jsx";
 import "./LoginSchool/LoginPage.css";
 
-// import ChangePasswordPage from "./LoginSchool/ChangePasswordPage.jsx";
-// import "./LoginSchool/ChangePasswordPage.css";
+import ChangePasswordPage from "./LoginSchool/ChangePasswordPage.jsx";
+import "./LoginSchool/ChangePasswordPage.css";
 import RegisterPage from "./LoginSchool/RegisterPage.jsx";
 import Home from "./association/home";
 import "./association/home.css";
