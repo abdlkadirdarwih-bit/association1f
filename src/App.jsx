@@ -45,8 +45,8 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 // import Services from './asscrudservices/Service.jsx'
 // import "./asscrudservices/Service.css";
-// import CreateServices from './asscrudservices/CreateService.jsx'
-// import "./asscrudservices/CreateService.css";
+import CreateServices from './asscrudservices/CreateService.jsx'
+import "./asscrudservices/CreateService.css";
 
 // import UpdateServices from './asscrudservices/UpdateService.jsx'
 // import "./asscrudservices/UpdateService.css";
@@ -100,9 +100,9 @@ export default function App() {
           <Route path='/update/:id' element={<UpdateEvent />} />
 
           <Route path='/services' element={<Services />} />
-          <Route path='/createServices' element={<CreateServices />} />
           <Route path='/updateservices/:id' element={<UpdateServices />} />
   </Route> */}
+          <Route path='/createServices' element={<CreateServices />} />
 
         </Routes>
 
