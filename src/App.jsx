@@ -81,9 +81,9 @@ export default function App() {
  <Route path="/" element={<Home/>} />
       
           
-          {/* <Route path="/eventass" element={<Event />} />
-          <Route path="/eventmoreass" element={<Eventmoreass />} /> */}
-          {/* <Route path="/contactass" element={<Contactass />} /> */}
+          <Route path="/eventass" element={<Event />} />
+          <Route path="/eventmoreass" element={<Eventmoreass />} />
+          <Route path="/contactass" element={<Contactass />} />
           </Route>
           <Route path="/servicesass" element={<Servicesass />} />
 
@@ -92,18 +92,17 @@ export default function App() {
   <Route element={<AdminNavbar />}>
 
    
-          {/* <Route path="/eventview" element={<Eventview/>} />
+          <Route path="/eventview" element={<Eventview/>} />
           <Route path="/servicesview" element={<Servicesview />}/> 
 
-                     <Route path="/contactview" element={<Contactview />} /> */}
-          {/* <Route path='/event' element={<Events />} />
-          <Route path='/update/:id' element={<UpdateEvent />} /> */}
+                     <Route path="/contactview" element={<Contactview />} />
+          <Route path='/event' element={<Events />} />
+          <Route path='/create' element={<CreateEvent />} />
+          <Route path='/update/:id' element={<UpdateEvent />} />
           <Route path='/createServices' element={<CreateServices />} />
-                    <Route path='/create' element={<CreateEvent />} />
 
-{/* 
           <Route path='/services' element={<Services />} />
-          <Route path='/updateservices/:id' element={<UpdateServices />} /> */}
+          <Route path='/updateservices/:id' element={<UpdateServices />} />
   </Route>
 
         </Routes>
