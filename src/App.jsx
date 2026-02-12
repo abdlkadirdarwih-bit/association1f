@@ -83,7 +83,7 @@ export default function App() {
           
           <Route path="/eventass" element={<Event />} />
           <Route path="/eventmoreass" element={<Eventmoreass />} />
-          <Route path="/contactass" element={<Contactass />} />
+          {/* <Route path="/contactass" element={<Contactass />} /> */}
           </Route>
           <Route path="/servicesass" element={<Servicesass />} />
 
@@ -95,7 +95,7 @@ export default function App() {
           <Route path="/eventview" element={<Eventview/>} />
           <Route path="/servicesview" element={<Servicesview />}/> 
 
-                     <Route path="/contactview" element={<Contactview />} />
+                     {/* <Route path="/contactview" element={<Contactview />} /> */}
           <Route path='/event' element={<Events />} />
           <Route path='/create' element={<CreateEvent />} />
           <Route path='/update/:id' element={<UpdateEvent />} />
