@@ -19,14 +19,14 @@ import RegisterPage from "./LoginSchool/RegisterPage.jsx";
 import Home from "./association/home";
 import "./association/home.css";
 
-// import {Event} from "./association/event";
-// import "./association/event.css";
-// import Eventmoreass from "./association/eventmore.jsx";
-// import "./association/eventmore.css";
+import {Event} from "./association/event";
+import "./association/event.css";
+import Eventmoreass from "./association/eventmore.jsx";
+import "./association/eventmore.css";
 import Servicesass from "./association/servicesass.jsx";
 import "./association/servicesass.css";
-// import Contactass from "./association/contactass.jsx";
-// import "./association/contactass.css";
+import Contactass from "./association/contactass.jsx";
+import "./association/contactass.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
