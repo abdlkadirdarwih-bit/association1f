@@ -67,7 +67,7 @@ export default function App() {
       <BrowserRouter>
         <div className="homeaboutmoto-menu-homesch">
         </div>
-<h1>vfbfrhtrg</h1>
+{/* <h1>vfbfrhtrg</h1> */}
         <Navbar/>
 
         <Routes>
@@ -81,8 +81,8 @@ export default function App() {
  <Route path="/" element={<Home/>} />
       
           
-          <Route path="/eventass" element={<Event />} />
-          <Route path="/eventmoreass" element={<Eventmoreass />} />
+          {/* <Route path="/eventass" element={<Event />} />
+          <Route path="/eventmoreass" element={<Eventmoreass />} /> */}
           <Route path="/contactass" element={<Contactass />} />
           </Route>
           <Route path="/servicesass" element={<Servicesass />} />
@@ -92,17 +92,17 @@ export default function App() {
   <Route element={<AdminNavbar />}>
 
    
-          <Route path="/eventview" element={<Eventview/>} />
+          {/* <Route path="/eventview" element={<Eventview/>} />
           <Route path="/servicesview" element={<Servicesview />}/> 
 
-                     <Route path="/contactview" element={<Contactview />} />
-          <Route path='/event' element={<Events />} />
+                     <Route path="/contactview" element={<Contactview />} /> */}
+          {/* <Route path='/event' element={<Events />} />
           <Route path='/create' element={<CreateEvent />} />
-          <Route path='/update/:id' element={<UpdateEvent />} />
+          <Route path='/update/:id' element={<UpdateEvent />} /> */}
           <Route path='/createServices' element={<CreateServices />} />
-
+{/* 
           <Route path='/services' element={<Services />} />
-          <Route path='/updateservices/:id' element={<UpdateServices />} />
+          <Route path='/updateservices/:id' element={<UpdateServices />} /> */}
   </Route>
 
         </Routes>
