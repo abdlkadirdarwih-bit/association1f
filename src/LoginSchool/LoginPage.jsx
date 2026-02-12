@@ -31,6 +31,8 @@ const backendUrl = import.meta.env.VITE_BACKEND_URL;
       // ✅ Navigate to /admin if login is successful
     if (res.data.message === " تسجيل دخول صحيح") {
       navigate("/admin");
+            // setTimeout(() => navigate("/"), 1500);
+
     }
     } catch (err) {
       setMsg(err.response?.data?.message || "Login failed");

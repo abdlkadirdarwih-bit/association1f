@@ -34,29 +34,29 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 
-// import Events from './asscrudevent/Event.jsx'
-// import "./asscrudevent/Event.css";
+import Events from './asscrudevent/Event.jsx'
+import "./asscrudevent/Event.css";
 
-// import CreateEvent from './asscrudevent/CreateEvent.jsx'
-// import "./asscrudevent/CreateEvent.css";
+import CreateEvent from './asscrudevent/CreateEvent.jsx'
+import "./asscrudevent/CreateEvent.css";
 
-// import UpdateEvent from './asscrudevent/UpdateEvent.jsx'
-// import "./asscrudevent/UpdateEvent.css";
+import UpdateEvent from './asscrudevent/UpdateEvent.jsx'
+import "./asscrudevent/UpdateEvent.css";
 
-// import Services from './asscrudservices/Service.jsx'
-// import "./asscrudservices/Service.css";
+import Services from './asscrudservices/Service.jsx'
+import "./asscrudservices/Service.css";
 import CreateServices from './asscrudservices/CreateService.jsx'
 import "./asscrudservices/CreateService.css";
 
-// import UpdateServices from './asscrudservices/UpdateService.jsx'
-// import "./asscrudservices/UpdateService.css";
+import UpdateServices from './asscrudservices/UpdateService.jsx'
+import "./asscrudservices/UpdateService.css";
 
-// import Contactview from "./adminass/contactview.jsx";
-// import "./adminass/contactview.css";
-// import Eventview from "./adminass/Eventview.jsx";
-// import   "./adminass/eventview.css";
-// import Servicesview from "./adminass/Serviceview.jsx";
-// import   "./adminass/serviceview.css";
+import Contactview from "./adminass/contactview.jsx";
+import "./adminass/contactview.css";
+import Eventview from "./adminass/Eventview.jsx";
+import   "./adminass/eventview.css";
+import Servicesview from "./adminass/Serviceview.jsx";
+import   "./adminass/serviceview.css";
 
 export default function App() {
    return (
@@ -79,16 +79,16 @@ export default function App() {
   
  <Route path="/" element={<Home/>} />
       
-          {/* 
+          
           <Route path="/eventass" element={<Event />} />
           <Route path="/eventmoreass" element={<Eventmoreass />} />
-          <Route path="/contactass" element={<Contactass />} /> */}
+          <Route path="/contactass" element={<Contactass />} />
           </Route>
           <Route path="/servicesass" element={<Servicesass />} />
 
 //true
  {/* <Route element={<AdminLayout />}> */}
-  {/* <Route element={<AdminNavbar />}>
+  <Route element={<AdminNavbar />}>
 
    
           <Route path="/eventview" element={<Eventview/>} />
@@ -98,11 +98,11 @@ export default function App() {
           <Route path='/event' element={<Events />} />
           <Route path='/create' element={<CreateEvent />} />
           <Route path='/update/:id' element={<UpdateEvent />} />
+          <Route path='/createServices' element={<CreateServices />} />
 
           <Route path='/services' element={<Services />} />
           <Route path='/updateservices/:id' element={<UpdateServices />} />
-  </Route> */}
-          <Route path='/createServices' element={<CreateServices />} />
+  </Route>
 
         </Routes>
 
