@@ -7,10 +7,10 @@ import myImage from "../assets/WhatsApp Image 2026-01-25 at 10.31.44 PM.jpeg";
 // import myImage from "../assets/WhatsApp Image 2025-09-19 at 10.49.02 PM.jpeg";
 import ServicesPage from "./services";
 import   "./services.css";
-// import AboutPage from "./about";
-// import   "./about.css";
-// import ProjectsPage from "./project";
-// import   "./project.css";
+import AboutPage from "./about";
+import   "./about.css";
+import ProjectsPage from "./project";
+import   "./project.css";
 
 import Contact from "./contact";
 import   "./contact.css";
@@ -60,8 +60,8 @@ export default function Home() {
     />
 
    <ServicesPage/>
-       {/*     <AboutPage/>
-         <ProjectsPage/> */}
+           <AboutPage/>
+         <ProjectsPage/>
 <Contact/>
 </>
   )

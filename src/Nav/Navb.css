@@ -157,7 +157,7 @@ header {
 }
 
 .container ul li a.active-link {
-    color: hsl(234, 83%, 65%);
+    /* color: hsl(234, 83%, 65%); */
     font-weight: bold;
 }
 
