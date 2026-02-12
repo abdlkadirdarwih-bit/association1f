@@ -8,7 +8,8 @@
 import "./App.css";
 import Navbar from "./Nav/Navb.jsx";
 import "./Nav/Navb.css";
-
+import AdminNavbar from "./adminnav/AdminNav.jsx";
+// import "./AdminNavbar/AdminNav.css";
 
 import LoginPage from "./LoginSchool/LoginPage.jsx";
 import "./LoginSchool/LoginPage.css";
