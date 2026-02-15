@@ -140,7 +140,7 @@ header {
 .container ul li a {
     color: white;
     font-size: 1.3rem;
-    font-weight: bold;
+    /* font-weight: bold; */
     padding: 0.7rem 1rem;
     display: block;
     border-radius: 10px;
@@ -157,7 +157,7 @@ header {
 }
 
 .container ul li a.active-link {
-    /* color: hsl(234, 83%, 65%); */
+    color: hsl(234, 75%, 36%);
     font-weight: bold;
 }
 
@@ -170,12 +170,12 @@ header {
     height: 550px;
 }
 
-.content {
+/* .content {
     position: absolute;
     top: 90%;
     left: 50%;
     transform: translate(-50%, 0%);
-}
+} */
 
 .content h2 {
     font-size: 6rem;
@@ -193,6 +193,7 @@ header {
     header {
         /* max-width: 1440px;
         height: 100vh; */
+
         margin-bottom: 40px;
     }
 
@@ -205,10 +206,14 @@ header {
         display: block;
 
     }
-
+/* .container {
+      display: flex;
+  flex-direction: row-reverse;
+} */
     .container .nav-link {
         margin-top: 120px;
-
+  /* display: flex;
+  flex-direction: row-reverse; */
         flex-direction: column;
         justify-content: space-evenly;
         background-color: #fff;
@@ -224,11 +229,13 @@ header {
     }
 
     .container ul li a.active-link {
+        
         color: black;
         font-weight: bold;
     }
 
     .nav-link.active {
+        
         top: 1%;
         transition: all 0.7s ease-in;
         background-color: hsl(235, 53%, 72%);

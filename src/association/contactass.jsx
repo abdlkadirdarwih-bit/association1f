@@ -93,7 +93,7 @@ export default function Contactass() {
                         {/* <div><FiPhone /> +961 78 823 881</div> */}
 
                         <div className='item-contact-icon-sch'>
-                            <div className='item-contactsch'>   <FiMail className='icon-sch' />     <span> albader@gmail.com</span></div>
+                            <div className='item-contactsch'>   <FiMail className='icon-sch' />     <span> aaa@gmail.com</span></div>
                             <div className='item-contactsch'>   <FiPhone className='icon-sch' />     <span> +961 78 823 881</span></div>
                             <div className='item-contactsch'>   <FiMapPin className='icon-sch' />     <span>Fnaydek</span></div>
                         </div>

@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 // import './Services.css';
 // import { servicesData } from './servicesData';
-import myImage from "../assets/WhatsApp Image 2026-01-25 at 10.31.44 PM.jpeg";
+// import myImage from "../assets/WhatsApp Image 2026-01-25 at 10.31.44 PM.jpeg";
 
 import { useNavigate } from 'react-router-dom';
 const backendUrl = import.meta.env.VITE_BACKEND_URL;

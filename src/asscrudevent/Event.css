@@ -1,11 +1,15 @@
 
 
-
+.events-wrapper .contacts-table-create-event-title{
+font-size: 2.9em;
+  color: #0044ff;
+text-align: center;
+}
 .events-container {
   width: 99vw;
   min-height: 100vh;
   margin-top: 110px;
-  background: rgb(205, 230, 155);
+  background-color:  hsl(234, 83%, 65%);
   display: flex;
   justify-content: center;
   align-items: center;

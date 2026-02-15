@@ -1,85 +1,114 @@
 
 
 
+.page-adminsb{
+     /* width: 100%; */
+       width: 99vw;
+  min-height: 100vh; 
+    /* margin-top: 100px; */
+    /* margin-right: 10px; */
+  /* background-color: rgb(205, 230, 155); */
+  border: 1px solid;
+  /* overflow-x: hidden;  */
+}
+
 
 .btn-services{
   display: flex;
   justify-content: flex-end; /* center | flex-start if you want */
-  margin-bottom: 20px;
+  /* margin-top: 90px; */
+  
 }
 
 .btn-service {
-
-  background-color: #4CAF50;
+display: flex;
+  justify-content: flex-end;
   color: white;
     /* float: right;        */
+    /* margin-right:150px ; */
+    margin-top:190px ;
 
   padding: 5px 12px;
   /* margin-bottom: 35px ; */
-  /* margin-right:190px ; */
-  margin-left: 320px;
+  margin-right:150px ;
+  /* margin-left: 320px; */
   font-size: 1rem;
+    background-color: #4d31ee;
     transition: background 0.2s;
 
 }
 
 
 
-.admin-page-wrapper .page-two-container {
-  /* width: 100%; */
-    /* max-width: 990px; */
-      /* border: 2px solid red; */
+/* Container Logic */
+.page-two-containerview {
+  width: 100%;
 
-      max-width: 1690px;
   min-height: 700px;
+  /* Fixed Height as requested */
+  /* max-width: 900px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+      max-width: 1690px;
+/* margin-bottom: 200px; */
   background-color: #ffffff;
   padding: 20px;
-  overflow: hidden;
+  /* border: 1px solid; */
+  /* overflow: hidden; */
+  /* overflow-x: auto; */
+    /* overflow-x: hidden; */
+
 }
 
-.admin-page-wrapper .text-headerass {
-
+.text-headerview {
   text-align: center;
-  margin-top: 0px;
+  margin-bottom: 50px;
   direction: rtl;
 }
 
-.admin-page-wrapper .h1-blueass {
+.text-headerview .h1-blueview {
+  
   color: #0044ff;
+  /* Blue H1 */
   font-size: 2.5rem;
-  margin-top: 60px;
+  /* margin-top: 60px; */
   margin-bottom: 30px;
 }
 
-.admin-page-wrapper .p-blackass {
-  color: #000;
-  /* max-width: 990px; */
+.p-blackview {
+  color: #000000;
+  /* Black P */
+  /* max-width: 600px; */
   line-height: 1.6;
   font-weight: 500;
   font-size: 18px;
   margin-bottom: 70px;
+
 }
 
-.admin-page-wrapper .cards-wrapperview {
+/* Flexbox for the 3 Divs */
+.cards-wrapperview {
+  /* max-width: 1600px; */
   display: flex;
-  /* flex-wrap: wrap; */
-    flex-wrap: nowrap;
-
+  flex-wrap: wrap;
   gap: 50px;
   justify-content: center;
   align-items: center;
   margin-bottom: 60px;
+
   direction: rtl;
+  
 }
 
-.admin-page-wrapper .service-card-v2 {
+/* Individual Card Styling */
+.service-card-v2view {
   width: 300px;
+  /* Defined Width */
   height: 300px;
-  background: #fff;
+  /* Defined Height */
+  background: #ffffff;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
   border-radius: 15px;
   display: flex;
@@ -87,38 +116,39 @@
   align-items: center;
   justify-content: center;
   padding: 20px;
+  /* transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
   cursor: pointer;
+  /* animation: fadeInUp 0.8s ease forwards; */
 }
 
-.admin-page-wrapper .img-ass {
+/* .service-card-v2:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 20px 40px rgba(0, 68, 255, 0.15);
+} */
+
+.img-assview {
+  /* font-size: 190px;  */
   width: 100px;
   height: 100px;
   margin-bottom: 30px;
 }
 
-.admin-page-wrapper .card-h2 {
+.card-h2view {
   color: #0044ff;
+  /* Blue H2 */
   font-size: 1.2rem;
+  /* margin-bottom: 15px; */
   text-align: center;
 }
 
-.admin-page-wrapper .card-p {
-  color: #000;
+.card-pview {
+  color: #000000;
+  /* Black P */
   font-size: 1.2rem;
+  /* font-weight: 500; */
   text-align: center;
   line-height: 1.5;
 }
 
-@media (max-width: 850px) {
-  .admin-page-wrapper .page-two-container {
-    height: auto;
-    padding: 80px 20px;
-  }
-  .admin-page-wrapper .cards-wrapperview {
-    flex-direction: column;
-    align-items: center;
-  }
-  .admin-page-wrapper .service-card-v2 {
-    /* width: 90%; */
-  }
-}
+
+

@@ -2,29 +2,106 @@
 
 
 
+.page-two-containerass {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* centers content INSIDE container */
 
+  min-height: 700px;
+  /* Fixed Height as requested */
+  /* max-width: 900px; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  align-items: center;
+  /* justify-content: center; */
+      /* max-width: 1690px;
+margin: 0 auto;  */
+  background-color: #ffffff;
+  padding: 20px;
+  /* overflow: hidden; */
+    /* border: 3px solid red; */
+/* margin-left: 300px; */
+}
 
 
 .text-headerass {
-  text-align: center;
-  margin-top: 150px;
-  direction: rtl;
+  width: 100%;
+  max-width: 600px;  /* or same width as paragraph */
+  margin: 100px auto 0 auto; /* top + horizontal centering */
+  text-align: center; /* center text inside */
 }
 
 .h1-blueass {
-  color: #0044ff; /* Blue H1 */
+  color: #0044ff;
   font-size: 2.5rem;
-  margin-top: 60px;
   margin-bottom: 30px;
 }
 
 .p-blackass {
-  color: #000000; /* Black P */
   max-width: 600px;
-  line-height: 1.6;
-    font-weight: 500;
-    font-size: 18px;
-      margin-bottom: 70px;
+  margin: 0 auto;      /* center paragraph block itself */
+  text-align: center;   /* center text inside paragraph */
+}
+
+
+.cards-wrapperass {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  /* direction: rtl; */
+    /* border: 3px solid red; */
 
 }
 
+
+
+.service-card-v2ass {
+  width: 300px;
+  /* Defined Width */
+  height: 300px;
+  /* Defined Height */
+  background: #ffffff;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  /* transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+  cursor: pointer;
+  /* animation: fadeInUp 0.8s ease forwards; */
+}
+
+/* .service-card-v2:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 20px 40px rgba(0, 68, 255, 0.15);
+} */
+
+.img-ass {
+  /* font-size: 190px;  */
+  width: 100px;
+  height: 100px;
+  margin-bottom: 30px;
+}
+
+.card-h2ass {
+  color: #0044ff;
+  /* Blue H2 */
+  font-size: 1.2rem;
+  /* margin-bottom: 15px; */
+  text-align: center;
+}
+
+.card-pass {
+  color: #000000;
+  /* Black P */
+  font-size: 1.2rem;
+  /* font-weight: 500; */
+  text-align: center;
+  line-height: 1.5;
+}

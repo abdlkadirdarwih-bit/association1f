@@ -183,7 +183,7 @@ const confirmDeleteEvent = (id) => {
  <div className="events-container">
   
       <div className="events-wrapper">
-                              <h2 className="contacts-table-create-event-title"> Event</h2>
+                              <h2 className="contacts-table-create-event-title"> Services</h2>
 
         <Link to="/createServices" className="btn-add-event">
           Add +

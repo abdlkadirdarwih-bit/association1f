@@ -416,7 +416,7 @@ const [confirmImageIndex, setConfirmImageIndex] = useState(null);
     <div className="cte-container">
       <div className="cte-card">
         <form onSubmit={handleUpdate}>
-                      <h2 className="contacts-table-create-event-title">Update Event</h2>
+                      <h2 className="contacts-table-create-event-title-update">Update Event</h2>
 
           <div className="cte-field">
             <label>Date</label>

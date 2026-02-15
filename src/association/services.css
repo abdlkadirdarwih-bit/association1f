@@ -1,4 +1,4 @@
-
+/*  */
 
 
 /* Container Logic */
@@ -13,10 +13,14 @@
   align-items: center;
   justify-content: center;
       max-width: 1690px;
-
+/* margin-bottom: 200px; */
   background-color: #ffffff;
   padding: 20px;
-  overflow: hidden;
+  /* border: 1px solid; */
+  /* overflow: hidden; */
+  /* overflow-x: auto; */
+    /* overflow-x: hidden; */
+
 }
 
 .text-header {
@@ -26,6 +30,7 @@
 }
 
 .h1-blue {
+  
   color: #0044ff;
   /* Blue H1 */
   font-size: 2.5rem;
@@ -53,6 +58,7 @@
   align-items: center;
   margin-bottom: 60px;
   direction: rtl;
+  
 }
 
 /* Individual Card Styling */
@@ -110,6 +116,8 @@
   padding: 12px 40px;
   border: none;
   border-radius: 5px;
+    font-size: 1.2rem;
+
   font-weight: bold;
   cursor: pointer;
   margin-bottom: 80px;
@@ -143,6 +151,10 @@
 
 /* Responsive: Stacking for small screens */
 @media (max-width: 850px) {
+  /* .page-two-container {
+  overflow-x: hidden;
+
+  } */
   .page-two-container {
     height: auto;
     /* Height must be auto on mobile to fit vertical stacking */
@@ -155,7 +167,8 @@
   }
 
   .service-card-v2 {
-    width: 100%;
+    /* width: 90%; */
+    /* margin: 10px; */
   }
 }
 

@@ -86,7 +86,7 @@ export default function Contactview() {
             {/* </div> */}
 
 
-            <div className="contacts-table-messages-wrapper">
+            <div className="contacts-table-messages-wrapperview">
               <table className="contacts-table-messages">
                 <thead className="thead-messages">
                   <tr className="tr-messages">

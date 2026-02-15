@@ -100,7 +100,11 @@
 
 /* --- Responsive for Mobile --- */
 @media (max-width: 992px) {
+  .projects-container {
+    margin-top: 40px;
+  }
   .projects-content {
+
     flex-direction: column; /* Stack vertically */
     align-items: center;
     text-align: center;

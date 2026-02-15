@@ -91,7 +91,7 @@ setTimeout(() => {
       <div className="contacts-table-create-event-page">
         <div className="contacts-table-create-event-container">
           <form onSubmit={submit} className="contacts-table-create-event-form">
-            <h2 className="contacts-table-create-event-title">Add Event</h2>
+            <h2 className="contacts-table-create-event-title">Add Service</h2>
 
                     {/* Main Image */}
             <div className="form-group">

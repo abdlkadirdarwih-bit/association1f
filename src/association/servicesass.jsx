@@ -74,17 +74,26 @@ const backendUrl = import.meta.env.VITE_BACKEND_URL;
 
 
 
+// const ServiceCard = ({ mainImage, title, description }) => {
+//   return (
+//     <div className="service-card-v2ass">
+//       {/* <span className="card-icon">{mainImage}</span> */}
+//               <img className="img-ass" src={mainImage} alt="Main" />
+//       <h2 className="card-h2ass">{title}</h2>
+//       <p className="card-pass">{description}</p>
+//     </div>
+//   );
+// };
 const ServiceCard = ({ mainImage, title, description }) => {
   return (
     <div className="service-card-v2">
-      {/* <span className="card-icon">{mainImage}</span> */}
-              <img className="img-ass" src={mainImage} alt="Main" />
+      {/* <span className="card-icon">{icon}</span> */}
+                    <img className="img-ass" src={mainImage} alt="Main" />
       <h2 className="card-h2">{title}</h2>
       <p className="card-p">{description}</p>
     </div>
   );
 };
-
 const Servicesass = () => {
         const [servicesdata, setServicesdata] = useState([]);
   useEffect(() => {
@@ -106,17 +115,38 @@ const Servicesass = () => {
 
       });
   }, []);
+   
   return (
-    <section className="page-two-container">
+       
+  // <section className="page-two-containerass">
+  //      <div className="text-headerass">
+  //       <h2 className="h1-blueass">الخدمات المتقدمة</h2>
+  //       <p className="p-blackass">
+  //         في جمعية معاً من أجل الخير ، نقدم مجموعة من الخدمات المتخصصة لتلبية احتياجاتك التكنولوجية
+  //       </p>
+  //     </div> 
+  //     <div className="cards-wrapperass">
+  //       {servicesdata.map((item) => (
+  //         <ServiceCard 
+  //           key={item.id}
+  //           mainImage={item.mainImage}
+  //           title={item.title}
+  //           description={item.description}
+  //         />
+  //       ))}
+  //     </div>
+
+  //   </section>
+  <section className="page-two-container">
       <div className="text-headerass">
-        <h2 className="h1-blueass">الخدمات المتقدمة</h2>
-        <p className="p-blackass">
+        <h2 className="h1-blue">الخدمات المتقدمة</h2>
+        <p className="p-black">
           في جمعية معاً من أجل الخير ، نقدم مجموعة من الخدمات المتخصصة لتلبية احتياجاتك التكنولوجية
         </p>
       </div>
 
       <div className="cards-wrapper">
-        {servicesdata.map((item) => (
+        {servicesdata.slice(0,3).map((item) => (
           <ServiceCard 
             key={item.id}
             mainImage={item.mainImage}
@@ -126,6 +156,13 @@ const Servicesass = () => {
         ))}
       </div>
 
+{/* <Section1 
+      title="تمكين التحول الرقمي الخاص بك"
+      description=".مرحباً بكم في جمعية معاً من أجل الخير حيث يلتقي الإبداع بالتميز. بصفتنا مزوداً رائداً لحلول البرمجيات المتطورة
+.فإننا ملتزمون بتحويل أفكارك إلى حقيقة. نحن هنا لدعم رحلتك في كل خطوة على الطريق  انضم  إلينا في تشكيل مستقبل التكنولوجيا اليوم       "
+      buttonText="دعونا نتواصل"
+    /> */}
+      <button className="animated-blue-btn"  onClick={() => navigate("/servicesass")} >عرض المزيد</button>
     </section>
   );
 };

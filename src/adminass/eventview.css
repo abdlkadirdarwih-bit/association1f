@@ -24,22 +24,37 @@
 
 .btn-events{
   display: flex;
-  justify-content: flex-end; /* center | flex-start if you want */
+  justify-content: flex-end; 
   margin-bottom: 20px;
 }
 
 .btn-event {
 
-  background-color: #2e19a5;
+/* display: flex;
+  justify-content: flex-end; */
   color: white;
     /* float: right;        */
 
   padding: 5px 12px;
-  margin-bottom: 35px ;
+  /* margin-bottom: 35px ; */
   /* margin-right:190px ; */
-  /* margin-left: 1200px; */
-  font-size: 1rem;
+  /* margin-left: 320px; */
+  /* font-size: 1rem; */
+    margin-right:150px ;
+
+    background-color: #4d31ee;
     transition: background 0.2s;
+ /* display: flex;
+  justify-content: flex-end;
+  background-color: #4CAF50;
+  color: white;
+    float: right;       
+
+  padding: 5px 12px;
+  margin-top: 135px ;
+  margin-right:190px ;
+  font-size: 1rem;
+    transition: background 0.2s; */
 
 }
 

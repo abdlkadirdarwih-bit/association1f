@@ -58,7 +58,7 @@ function Navbar() {
   > الخدمات  </NavLink></li>
     <li><NavLink to="/eventass" className={({ isActive }) => isActive ? "active-link" : ""}
         onClick={() => setIsOpen(false)}   // 👈 Close menu here
->معلومات عن المدونات</NavLink></li>
+>معلومات  </NavLink></li>
      <li><NavLink to="/" className={({ isActive }) => isActive ? "active-link" : ""}
         onClick={() => setIsOpen(false)}   // 👈 Close menu here
   >الرئيسية</NavLink></li>

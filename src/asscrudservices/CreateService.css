@@ -10,7 +10,7 @@
   width: 99vw;
   min-height: 100vh;
   padding-top: 130px;
-  background-color: rgb(205, 230, 155);
+  background-color:  hsl(234, 83%, 65%);
   font-family: Arial, sans-serif;
 }
 
@@ -76,7 +76,7 @@
 }
 
 .btn-add-image {
-  background-color: #4CAF50;
+  background-color:  hsl(234, 83%, 65%);
   color: white;
   margin-bottom: 10px;
 }
